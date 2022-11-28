@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professores | Jorge Street</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./Imagens/logo_ETEC_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <div class="menu-container" id="menu-container">
+        <header>
+            <div class="logo">
+                <!--Logo da ETEC Jorge Street-->
+                <img src="./Imagens/logo_ETEC_01.png" alt="Logo da ETEC Jorge Street">
+            </div>
+            <!--logo-->
+            <div class="redes-sociais">
+                <!--Redes Sociais da ETEC Jorge street-->
+                <!--Facebook-->
+                <a href="https://www.facebook.com/people/Etec-Jorge-Street/100084738010880/"
+                    arial-label="Acesse o nosso Facebook" target="_blank" class="facebook">
+                    <i class="fa-brands fa-facebook sociais"></i>
+                </a>
+                <!--facebook-->
+                <!--Instagram-->
+                <a href="https://www.instagram.com/marketing_etecjorgestreet/?igshid=YmMyMTA2M2Y%3D"
+                    arial-label="Acesse o nosso Instagram" target="_blank" class="instagram">
+                    <i class="fa-brands fa-instagram sociais"></i>
+                </a>
+                <!--Youtube-->
+                <a href="https://www.youtube.com/channel/UCJA_uTakTzcljA8e8OPZr0g"
+                    arial-label="Acesse o nosso canal do Youtube" target="_blank" class="youtube">
+                    <i class="fa-brands fa-youtube sociais"></i>
+                </a>
+                <!--TikTok-->
+                <a href="https://www.tiktok.com/@etecjorgestreet?_t=8V7CkcymE7R&_r=1"
+                    arial-label="Acesse a nossa conta do TikTok" target="_blank" class="tiktok">
+                    <i class="fa-brands fa-tiktok sociais"></i>
+                </a>
+                <!--Linkedin-->
+                <a href="https://www.linkedin.com/in/marketing-etec-jorge-street-tcc-343135249"
+                    arial-label="Acesse o nosso linkedin para conhecer a nossa equipe" target="_blank" class="linkedin">
+                    <i class="fa-brands fa-linkedin sociais"></i>
+                </a>
+            </div>
+            <!--redes-sociais-->
+
+            <!--Menu-->
+            <div class="menu">
+                <!--Icone de Menu-->
+                <a onclick="abrir_menu()" class="menu-btn">
+                    <i class="fa-solid fa-bars icon-menu"></i>
+                </a>
+            </div>
+            <!--menu-->
+        </header>
+        <!--header-->
+    </div>
+    <!--menu-container-->
+
+    <!--menu aberto-->
+    <div id="id_menu" class="menu-aberto">
+        <h1 onclick="fechar()">
+            <a href="javascript:void(0)" class="fechar"><i class="fa-solid fa-xmark"></i></a>
+        </h1>
+        <div class="switch">
+          <input id='toggle' type="checkbox">
+      </div>
+        <ul>
+          <li><a href="index.html" onclick="color()">A ETEC</a></li>
+            <li><a href="vestibulinho.html" onclick="color()">vestibulinho</a></li>
+            <li><a href="alunos.html" onclick="color()">alunos</a></li>
+            <li><a href="professor.html" onclick="color()">Professores</a></li>
+            <!-- <li><a href="tcc.html" onclick="color()">TCC</a></li> -->
+            <li><a href="noticias.html" onclick="color()">Notícias</a></li>
+            <li><a href="http://memorias.jorgestreet.com.br" target="_blank" onclick="color()">memórias</a></li>
+            <li><a href="contatos.html" onclick="color()">contato</a></li>
+        </ul>
+
+    </div>
+    <!--menu-aberto-->
+
+    <div class="banner">
+        <section class="module paralax paralax-5" data-anime="bottom"></section>
+      </div>
+      <!--banner-->
+
+      <div class="bem-vindo">
+        <h1>SEJA BEM VINDO!</h1>
+      </div>
+      <!--bem-vindo-->
+
+      <div class="MD-professores">
+        <h1>Material dos Professores</h1>
+        <p>Alguns arquivos estão compactados e ou em formato PDF. É necessário o programa Winrar para descompactar os arquivos e o programa Adobe Acrobat para visualizar arquivos em formato PDF.  Todo o conteúdo desta página é disponibilizado pelos Professores. Caso você não encontre o que precisa, entre em contato com o o seu Professor.</p>
+
+        <div class="materiais-didataticos">
+
+          <div class="link-ursos">
+            <div class="heading">
+              <h1 class="heading__title">Material Didático para Alunos</h1>
+            </div>
+            <div class="cards">
+              <div class="card card-1">
+                <div class="card__icon"><i class="fas fa-bolt"></i></div>
+                <!-- <p class="card__exit"><i class="fas fa-times"></i></p> -->
+                <h2 class="card__title">Eletrônica</h2>
+                <p class="card__apply">
+                  <a class="card__link" href="https://www.jorgestreet.com.br/wp-content/uploads/2019/07/eletronica_vol1_CIRCUITOS_ELETRICOS.pdf" target="_blank">Circuitos Elétricos <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="https://www.jorgestreet.com.br/wp-content/uploads/2019/07/eletronica_vol2_ELETRONICA_ANALOGICA.pdf" target="_blank">Eletrônica Analógica <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="https://www.jorgestreet.com.br/wp-content/uploads/2019/07/eletronica_vol3_MAQUINAS_E_INSTALACOES_ELETRICAS.pdf" target="_blank">Máquinas e Instalações Elétricas <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="https://www.jorgestreet.com.br/wp-content/uploads/2019/07/eletronica_vol4_ELETRONICA_DIGITAL.pdf" target="_blank">Eletrônica Digital <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="https://www.jorgestreet.com.br/wp-content/uploads/2019/07/eletronica_vol5_TELECOMUNICACOES.pdf" target="_blank">Telecomunicações <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="
+                  https://www.jorgestreet.com.br/wp-content/uploads/2019/07/eletronica_vol6_AUTOMACAO_INDUSTRIAL.pdf" target="_blank">Automação Industrial <i class="fas fa-arrow-right"></i></a><br>
+                </p>
+              </div><!--card-1-->
+              <div class="card card-2">
+                <div class="card__icon"><i class="fas fa-bolt"></i></div>
+                <!-- <p class="card__exit"><i class="fas fa-times"></i></p> -->
+                <h2 class="card__title">Informática</h2>
+                <p class="card__apply">
+                  <a class="card__link" href="zips-planos-matrizes/info_vol1_parte1_SISTEMAS_OPERACIONAIS_SOFTWARES_APLICATIVOS.zip">Sistemas Operacionais – 1 <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="zips-planos-matrizes/info_vol1_parte2_SISTEMAS_OPERACIONAIS_SOFTWARES_APLICATIVOS.zip">Sistemas Operacionais – 2 <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="https://www.jorgestreet.com.br/wp-content/uploads/2019/07/info_vol2_REDES_MANUTENCAO_COMPUTADORES-1.pdf" target="_blank">Redes e Manutenção de Computadores <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="https://www.jorgestreet.com.br/wp-content/uploads/2019/07/info_vol3_ANALISE_GERENCIAMENTO_DADOS.pdf" target="_blank">Análise e Gerenciamento de Dados <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="https://www.jorgestreet.com.br/wp-content/uploads/2019/07/info_vol4_PROGRAMACA_COMPUTADORES.pdf" target="_blank">Programação de Computadores <i class="fas fa-arrow-right"></i></a><br>
+                </p>
+              </div><!--card-2-->
+              <div class="card card-3">
+                <div class="card__icon"><i class="fas fa-bolt"></i></div>
+                <!-- <p class="card__exit"><i class="fas fa-times"></i></p> -->
+                <h2 class="card__title">Mecânica</h2>
+                <p class="card__apply">
+                  <a class="card__link" href="https://www.jorgestreet.com.br/wp-content/uploads/2019/07/mecanica_vol11_PROJETOS_ENSAIOS_MECANICOS.pdf" target="_blank">Projetos e Ensaios Mecânicos <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="https://www.jorgestreet.com.br/wp-content/uploads/2019/07/mecanica_vol12_TECNOLOGIA_MATERIAIS_INDUSTRIAL.pdf" target="_blank">Tecnologia dos Materiais Industriais <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="https://www.jorgestreet.com.br/wp-content/uploads/2019/07/mecanica_vol13_ELETROELETRONICA_MECANICA.pdf" target="_blank">Eletroeletrônica para Mecânica <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="https://www.jorgestreet.com.br/wp-content/uploads/2019/07/mecanica_vol14_AUTOMACAO.pdf" target="_blank">Automação <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="https://www.jorgestreet.com.br/wp-content/uploads/2019/07/mecanica_vol15_METODOS_PROCESSOS_INDUSTRIAIS.pdf" target="_blank">Métodos e Processos Industriais <i class="fas fa-arrow-right"></i></a><br>
+                </p>
+              </div><!--card-3-->
+              <div class="card card-4">
+                <div class="card__icon"><i class="fas fa-bolt"></i></div>
+                <!-- <p class="card__exit"><i class="fas fa-times"></i></p> -->
+                <h2 class="card__title">Núcleo Básico</h2>
+                <p class="card__apply">
+                  <a class="card__link" href="https://www.jorgestreet.com.br/wp-content/uploads/2019/07/basico_vol1_KEY_TO_ENGLISH.pdf" target="_blank">Key to English <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="https://www.jorgestreet.com.br/wp-content/uploads/2019/07/basico_vol3_PLANEJAMENTO_DESENVOLVIMENTO_TCC.pdf" target="_blank">Planejamento e Desenvolvimento de TCC <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="https://www.jorgestreet.com.br/wp-content/uploads/2019/07/basico_vol3_LINGUAGEM_TRABALHO_TECNOLOGIA.pdf" target="_blank">Linguagem Trabalho e Tecnologia <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="https://www.jorgestreet.com.br/wp-content/uploads/2019/07/basico_vol4_ETICA_PROFISSIONAL_CIDADANIA_ORGANIZACIONAL.pdf" target="_blank">Ética e Cidadania <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="https://www.jorgestreet.com.br/wp-content/uploads/2019/07/basico_vol5_SEGURANCA_QUALIDADE.pdf" target="_blank">Segurança e Qualidade <i class="fas fa-arrow-right"></i></a><br>
+                </p>
+              </div><!--card-4-->
+              <div class="card card-5">
+                <div class="card__icon"><i class="fas fa-bolt"></i></div>
+                <!-- <p class="card__exit"><i class="fas fa-times"></i></p> -->
+                <h2 class="card__title"></h2>
+                <p class="card__apply">
+                  <a class="card__link" href="#" target="_blank">Arcy <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="https://jorgestreet.com.br/wp-content/uploads/2019/02/Eletricidade_2017.pdf" target="_blank">Cristina <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="#" target="_blank">Glaciete <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="#" target="_blank">Lazslo <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="#" target="_blank">Marcos Antonio Gasparin <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="#" target="_blank">Néris <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="#" target="_blank">Professor Michel <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="#" target="_blank">Reinaldo Soeiro <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="#" target="_blank">Rosana Traversa <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="#" target="_blank">Saul <i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="https://jorgestreet.com.br/wp-content/uploads/2019/04/logica_de_programacao_estrutura_dados_java.pdf" target="_blank">Simone <i class="fas fa-arrow-right"></i></a>
+                </p>
+              </div><!--card-5-->
+              <div class="card card-1">
+                <div class="card__icon"><i class="fas fa-bolt"></i></div>
+                <!-- <p class="card__exit"><i class="fas fa-times"></i></p> -->
+                <h2 class="card__title"></h2>
+                <p class="card__apply">
+                  <a class="card__link" href="http://www.etec.sp.gov.br/view/Default.aspx" target="_blank">Acesso Loja Microsoft<i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="https://www.youtube.com/watch?v=xi4_C4ph2Aw" target="_blank">Vídeo SkyDrive<i class="fas fa-arrow-right"></i></a><br>
+                  <!-- <a class="card__link" href="#" target="_blank">Download Autodesk<i class="fas fa-arrow-right"></i></a><br> -->
+                  <a class="card__link" href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=4765445b-32c6-49b0-83e6-1d93765276ca&redirect_uri=https%3A%2F%2Fwww.office.com%2Flandingv2&response_type=code%20id_token&scope=openid%20profile%20https%3A%2F%2Fwww.office.com%2Fv2%2FOfficeHome.All&response_mode=form_post&nonce=638018917813506091.NDY1MmIzYzgtZjMwMS00ZTUzLTlmMjgtMWJhYmZhOWQ1MjhmNGEzNDQzYjctMmY0Ni00OWUxLWJhMzgtZTFkM2I4NjcxMmZi&ui_locales=pt-BR&mkt=pt-BR&state=Y8D5Ns-3lZZWRIdxWDc7saUjKQBIhp_Mnk31j2e4bBwyQEt55M-BGU4_j9regN80lX9pMzg-VM069RjbX0pkhGtEQCFPTGoW6VPiucfj_W_jh-EJol-463xHCFTSVvzw9pQWzMgXxi0SeB8opRZk2SGsvFdYPlKdV0NxEuVcWG_R7nPpzdwT4w1mHjShe8fKLEy6MAlwGJ8_9Nkjbzmxgfu2co83y1g7E4coed_6Gwt-HBesh2a_qTifnE_NxAan1ACdaY_SHKemVhuV--9UVQ&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=6.16.0.0&sso_reload=true" target="_blank">E-Mail Etec<i class="fas fa-arrow-right"></i></a><br>
+                  <a class="card__link" href="https://www.office.com/" target="_blank">Office OnLine<i class="fas fa-arrow-right"></i></a><br>
+                </p>
+              </div><!--card-1-->
+            </div><!--cards-->
+          </div><!--link-cursos-->
+
+        </div><!--materiais-didaticos-->
+      </div><!--MD-professores-->
+
+      <div class="MP-professores">
+        <h1>MATRIZES E PLANOS</h1>
+        <p>Alguns arquivos estão compactados e ou em formato PDF. É necessário o programa Winrar para descompactar os arquivos e o programa Adobe Acrobat para visualizar arquivos em formato PDF. Todo o conteúdo desta página é disponibilizado pela direção da Escola e ou Cordenação de áreas. Caso você não encontre o que precisa, entre em contato com o coordenador de área ou ainda, com o seu professor.</p>
+        <!-- <div class="tabela-matriz-planos"> -->
+      </div><!--MP-professores-->
+
+          <table>
+            <thead>
+              <tr>
+                <td><h1>Matriz</h1></td>
+                <td><h1>Plano</h1></td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/mc_administracao_cs_1-2019.pdf" target="_blank">Administração</a></h3></td>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/Administra%C3%A7%C3%A3o_206_CS_1sem2019.pdf" target="_blank">Administração</a></h3></td>
+              </tr>
+              <tr>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/mc_administracao_etim_2019.pdf" target="_blank">Administração Integrado</a></h3></td>
+                <td style="border: 1px solid #ffffffa3;"><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/Administra%C3%A7%C3%A3oETIM_213_1sem2019.pdf" target="_blank">Administração Integrado</a></h3></td>
+              </tr>
+              <tr>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/mc_automacao_industrial_cs_1-2019.pdf"  target="_blank">Automação industrial</a></h3></td>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/Automa%C3%A7%C3%A3oIndustrial_180_CS_1sem2019.pdf" target="_blank">Automação industrial</a></h3></td>
+              </tr>
+              <tr>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/mc_automacao_industrial_etim_2019.pdf" target="_blank">Automação Industrial Integrado</a></h3></td>
+                <td style="border: 1px solid #ffffffa3;"><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/Automa%C3%A7%C3%A3oIndustrialETIM_163_1sem2019.pdf" target="_blank">Automação Industrial Integrado</a></h3></td>
+              </tr>
+              <tr>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/mc_desenvolvimento_de_sistemas_cs_1-2019.pdf" target="_blank">Desenvolvimento de Sistemas</a></h3></td>
+                <td style="border: 1px solid #ffffffa3;"><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/DesenvolvimentoSistemas_336_CS_1sem2019.pdf" target="_blank">Desenvolvimento de Sistemas</a></h3></td>
+              </tr>
+              <tr>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/mc_desenvolvimento_de_sistemas_mtec_AMS_2019cn.pdf" target="_blank">Desenvolv. de Sistemas – MTEC</a></h3></td>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/DesenvolvimentoSistemas_MTecAMS_1S%C3%A9rie.pdf" target="_blank">Desenvolv. de Sistemas – MTEC</a></h3></td>
+              </tr>
+              <tr>
+                <td><h3>
+                  <a href="
+                    https://www.jorgestreet.com.br/wp-content/uploads/2019/02/mc_eletrotecnica_cs_1-2019.pdf">Eletrotécnica</a>
+                </h3></td>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/Eletrot%C3%A9cnica_239_CS_1sem2019.pdf" target="_blank">Eletrotécnica</a></h3></td>
+              </tr>
+              <tr>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/mc_eletronica_cs_1-2019.pdf" target="_blank">Eletrônica</a></h3></td>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/Eletr%C3%B4nica_233_CS_1sem2019.pdf" target="_blank">Eletrônica</a></h3></td>
+              </tr>
+              <tr>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/mc_eletronica_etim_2019.pdf" target="_blank">Eletrônica Integrado</a></h3></td>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/Eletr%C3%B4nicaETIM_261_1sem2019.pdf">Eletrônica Integrado</a></h3></td>
+              </tr>
+              <tr>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/mc_informatica_1_2019cr.pdf" target="_blank">Informática</a></h3></td>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/Inform%C3%A1tica_353_CS_1sem2019.pdf">Informática</a></h3></td>
+              </tr>
+              <tr>
+                <td><h3><a href="http://jorgestreet.com.br/wp-content/uploads/2019/02/mc_informatica_etim_2018.pdf" target="_blank">Informática Integrado</a></h3></td>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/Inform%C3%A1ticaETIM_263_1sem2018.pdf" target="_blank">Informática Integrado</a></h3></td>
+              </tr>
+              <tr>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/mc_informatica_para_internet_etim_2019.pdf" target="_blank">Informática para Internet Integrado</a></h3></td>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/Inform%C3%A1ticaInternetETIM_267_1sem2018.pdf" target="_blank">Informática para Internet Integrado</a></h3></td>
+              </tr>
+              <tr>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/mc_manutencao_automotiva_cs_1-2019.pdf" target="_blank">Manutenção Automotiva</a></h3></td>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/Manuten%C3%A7%C3%A3oAutomotiva_201_CS_1sem2019.pdf" target="_blank">Manutenção Automotiva</a></h3></td>
+              </tr>
+              <tr>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/mc_mecanica_cs_1-2019.pdf" target="_blank">Mecânica</a></h3></td>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/Mec%C3%A2nica_238_CS_1sem2019.pdf" target="_blank">Mecânica</a></h3></td>
+              </tr>
+              <tr>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/mc_mecanica_etim_2019.pdf" target="_blank">Mecânica Integrado</a></h3></td>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/Mec%C3%A2nicaETIM_259_1sem2019.pdf" target="_blank">Mecânica Integrado</a></h3></td>
+              </tr>
+              <tr>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/mc_mecatronica_cs_1-2019.pdf" target="_blank">Mecatrônica</a></h3></td>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/Mecatronica_95_CS_1sem2019.pdf" target="_blank">Mecatrônica</a></h3></td>
+              </tr>
+              <tr>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/mc_mecatronica_etim_2019.pdf" target="_blank">Mecatrônica Integrado</a></h3></td>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/Mecatr%C3%B4nicaETIM_089_1sem2019.pdf" target="_blank">Mecatrônica Integrado</a></h3></td>
+              </tr>
+              <tr>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/mc_recursos_humanos_cs_1-2019.pdf" target="_blank">Recursos Humanos – MTEC</a></h3></td>
+                <td><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/RecursosHumanosMTec_1e2S%C3%A9rie.pdf" target="_blank">Recursos Humanos – MTEC</a></h3></td>
+              </tr>
+              <tr>
+                <td style="border-bottom: 0;"><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/mc_servicos_juridicos_cs_1-2019.pdf" target="_blank">Serviços Jurídicos</a></h3></td>
+                <td style="border-bottom: 0; border-right: 0;"><h3><a href="https://www.jorgestreet.com.br/wp-content/uploads/2019/02/Servi%C3%A7osJur%C3%ADdicos_151_CS_1sem2019.pdf" target="_blank">Serviços Jurídicos</a></h3></td>
+              </tr>
+            </tbody>
+          </table>
+        <!-- </div> -->
+
+      <div class="OM-professores">
+        <h1>ORIENTAÇÕES E MODELOS</h1>
+        <p>Alguns arquivos estão compactados e ou em formato PDF. É necessário o programa Winrar para descompactar os arquivos e o programa Adobe Acrobat para visualizar arquivos em formato PDF. Todo o conteúdo desta página é disponibilizado pela direção da Escola e ou Cordenação de áreas. Caso você não encontre o que precisa, entre em contato com o coordenador de área ou ainda, com o seu professor.</p>
+
+        <div class="link-ursos">
+          <div class="heading">
+            <h1 class="heading__title">Modelos e Orientações</h1>
+          </div>
+          <div class="cards">
+            <div class="card card-1">
+              <div class="card__icon"><i class="fas fa-bolt"></i></div>
+              <!-- <p class="card__exit"><i class="fas fa-times"></i></p> -->
+              <h2 class="card__title">Modelos</h2>
+              <p class="card__apply">
+                <a class="card__link" href="#" target="_blank">Cabeçalho Ensino Técnico <i class="fas fa-arrow-right"></i></a><br>
+                <a class="card__link" href="#" target="_blank">Ficha de Avaliação Diagnóstica <i class="fas fa-arrow-right"></i></a><br>
+                <a class="card__link" href="#" target="_blank">Preenchimento PP <i class="fas fa-arrow-right"></i></a><br>
+                <a class="card__link" href="#" target="_blank">Plano Atividade Extra Ensino Técnico <i class="fas fa-arrow-right"></i></a><br>
+                
+              </p>
+            </div><!--card-1-->
+            <div class="card card-2">
+              <div class="card__icon"><i class="fas fa-bolt"></i></div>
+              <!-- <p class="card__exit"><i class="fas fa-times"></i></p> -->
+              <h2 class="card__title">Informática</h2>
+              <p class="card__apply">
+                <a class="card__link" href="#" target="_blank">Apresentação Reunião Pedagógica <i class="fas fa-arrow-right"></i></a><br>
+                <a class="card__link" href="#" target="_blank">Instruções PP <i class="fas fa-arrow-right"></i></a><br>
+                <a class="card__link" href="#" target="_blank">Manual de Integração <i class="fas fa-arrow-right"></i></a><br>
+                <a class="card__link" href="#" target="_blank">Orientações Iniciais <i class="fas fa-arrow-right"></i></a><br>
+                <a class="card__link" href="#" target="_blank">Subsídios e Guia para o PTD <i class="fas fa-arrow-right"></i></a><br>
+                <a class="card__link" href="#" target="_blank">PPG 2020 <i class="fas fa-arrow-right"></i></a><br>
+                <a class="card__link" href="#" target="_blank">Softwares disponíveis nos laboratórios <i class="fas fa-arrow-right"></i></a><br>
+              </p>
+            </div><!--card-2-->
+          </div><!--cards-->
+        </div><!--link-cursos-->
+      </div>
+
+      <div class="site-pedago">
+        <button><a href="http://pedagogico.jorgestreet.com.br" target="_blank">SITE PEDAGÓGICO</a></button>
+      </div>
+
+      <div class="clear"></div>
+
+      <!--Rodape-->
+  <footer>
+    <div class="container-footer">
+      <div class="endereco">
+        <p>Rua Bell Aliance, 149 - Jardim São Caetano</p>
+        <p>São Caetano do Sul - SP - CEP:09581-420</p>
+        <p>Tel: (11) 4238-7955</p>
+      </div>
+
+      <div class="socias-foot">
+        <p>Conheça as nossas Redes Sociais!!!</p>
+        <div class="redes">
+          <!--Facebook-->
+          <a href="https://www.facebook.com/people/Etec-Jorge-Street/100084738010880/"
+            arial-label="Acesse o nosso Facebook" target="_blank" class="facebook">
+            <i class="fa-brands fa-facebook sociais"></i>
+          </a>
+          <!--facebook-->
+          <!--Instagram-->
+          <a href="https://www.instagram.com/marketing_etecjorgestreet/?igshid=YmMyMTA2M2Y%3D"
+            arial-label="Acesse o nosso Instagram" target="_blank" class="instagram">
+            <i class="fa-brands fa-instagram sociais"></i>
+          </a>
+          <!--Youtube-->
+          <a href="https://www.youtube.com/channel/UCJA_uTakTzcljA8e8OPZr0g"
+            arial-label="Acesse o nosso canal do Youtube" target="_blank" class="youtube">
+            <i class="fa-brands fa-youtube sociais"></i>
+          </a>
+          <!--TikTok-->
+          <a href="https://www.tiktok.com/@etecjorgestreet?_t=8V7CkcymE7R&_r=1"
+            arial-label="Acesse a nossa conta do TikTok" target="_blank" class="tiktok">
+            <i class="fa-brands fa-tiktok sociais"></i>
+          </a>
+          <!--Linkedin-->
+          <a href="https://www.linkedin.com/in/marketing-etec-jorge-street-tcc-343135249"
+            arial-label="Acesse o nosso linkedin para conhecer a nossa equipe" target="_blank" class="linkedin">
+            <i class="fa-brands fa-linkedin sociais"></i>
+          </a>
+        </div>
+      </div>
+      <div class="apm">
+        <p>Mantido por recursos da APM</p>
+      </div>
+    </div>
+  </footer>
+  <!--footer-->
+
+    <script src="js/theme.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

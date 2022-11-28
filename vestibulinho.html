@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vestibulinho | Jorge Street</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="./Imagens/logo_ETEC_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <div class="menu-container" id="menu-container">
+        <header>
+            <div class="logo">
+                <!--Logo da ETEC Jorge Street-->
+                <img src="./Imagens/logo_ETEC_01.png" alt="Logo da ETEC Jorge Street">
+            </div>
+            <!--logo-->
+            <div class="redes-sociais">
+                <!--Redes Sociais da ETEC Jorge street-->
+                <!--Facebook-->
+                <a href="https://www.facebook.com/people/Etec-Jorge-Street/100084738010880/"
+                    arial-label="Acesse o nosso Facebook" target="_blank" class="facebook">
+                    <i class="fa-brands fa-facebook sociais"></i>
+                </a>
+                <!--facebook-->
+                <!--Instagram-->
+                <a href="https://www.instagram.com/marketing_etecjorgestreet/?igshid=YmMyMTA2M2Y%3D"
+                    arial-label="Acesse o nosso Instagram" target="_blank" class="instagram">
+                    <i class="fa-brands fa-instagram sociais"></i>
+                </a>
+                <!--Youtube-->
+                <a href="https://www.youtube.com/channel/UCJA_uTakTzcljA8e8OPZr0g"
+                    arial-label="Acesse o nosso canal do Youtube" target="_blank" class="youtube">
+                    <i class="fa-brands fa-youtube sociais"></i>
+                </a>
+                <!--TikTok-->
+                <a href="https://www.tiktok.com/@etecjorgestreet?_t=8V7CkcymE7R&_r=1"
+                    arial-label="Acesse a nossa conta do TikTok" target="_blank" class="tiktok">
+                    <i class="fa-brands fa-tiktok sociais"></i>
+                </a>
+                <!--Linkedin-->
+                <a href="https://www.linkedin.com/in/marketing-etec-jorge-street-tcc-343135249"
+                    arial-label="Acesse o nosso linkedin para conhecer a nossa equipe" target="_blank" class="linkedin">
+                    <i class="fa-brands fa-linkedin sociais"></i>
+                </a>
+            </div>
+            <!--redes-sociais-->
+
+            <!--Menu-->
+            <div class="menu">
+                <!--Icone de Menu-->
+                <a onclick="abrir_menu()" class="menu-btn">
+                    <i class="fa-solid fa-bars icon-menu"></i>
+                </a>
+            </div>
+            <!--menu-->
+        </header>
+        <!--header-->
+    </div>
+    <!--menu-container-->
+
+    <!--menu aberto-->
+    <div id="id_menu" class="menu-aberto">
+        <h1 onclick="fechar()">
+            <a href="javascript:void(0)" class="fechar"><i class="fa-solid fa-xmark"></i></a>
+        </h1>
+        <div class="switch">
+            <input id='toggle' type="checkbox">
+        </div>
+        <ul>
+            <li><a href="index.html" onclick="color()">A ETEC</a></li>
+            <li><a href="vestibulinho.html" onclick="color()">vestibulinho</a></li>
+            <li><a href="alunos.html" onclick="color()">alunos</a></li>
+            <li><a href="professor.html" onclick="color()">Professores</a></li>
+            <!-- <li><a href="tcc.html" onclick="color()">TCC</a></li> -->
+            <li><a href="noticias.html" onclick="color()">Notícias</a></li>
+            <li><a href="http://memorias.jorgestreet.com.br" target="_blank" onclick="color()">memórias</a></li>
+            <li><a href="contatos.html" onclick="color()">contato</a></li>
+        </ul>
+
+    </div>
+    <!--menu-aberto-->
+
+
+    <!--principal conteudo -->
+    <main>
+
+        <div class="banner">
+
+            <section class="module paralax paralax-3" data-anime="bottom"></section>
+
+        </div>
+        <!--banner-->
+
+        <hr class="weight-100">
+        <!--linha-->
+
+        <div class="nosso-ensino">
+            <h1>Sobre Nosso Ensino</h1>
+
+            <p>A ETEC Jorge Street, preza pelo conhecimento e habilidade técnica de todos os seus alunos com muita qualidade de ensino e aprendizagem, se preocupa com o aluno na sua faixa etária, pensa na criatividade dos alunos sempre dando abertura à novas ideias, e sempre prezando com a facilidade de relacionamento com os alunos e colegas professores, são marcas do nosso docente.</p>
+        </div>
+        <!--nosso-ensino-->
+
+        <hr class="weight-100">
+        <!--linha-->
+
+        <div class="acompanhe-calendario">
+            <h1>Acompanhe o Calendário</h1>
+            <div class="calendario-info">
+                <div class="cale">
+                    <img src="./imagens/calendario.png" alt="Imagens de um Calendário">
+                </div>
+                <div class="info-cale">
+                    <ul>
+                        <li>Inscrições 19/05 a 13/06 13h.</li>
+                        <li>30/06 divulgação do local de prova.</li>
+                        <li>Prova do vestibulinho 2ºsemestre 2022 03/07 13h30.</li>
+                        <li>Resultado do deferimento 27/07/2022 apartir das 15h.</li>
+                        <li>18/07 15h divulgação da lista de classificação.</li>
+                        <li>19/07 até 21/07 matricula da 1ºlista de convocação</li>
+                    </ul>
+                </div>
+                <!--info-cale-->
+            </div>
+            <!--calendario-info-->
+        </div>
+        <!--acompanhe-calendario-->
+
+        <hr class="weight-100">
+        <!--linha-->
+
+        <div class="board-curso" id="cursos">
+            <div class="pesquisar">
+                <!-- <select id="filters"></select> -->
+                <input type="text" name="pesquisarCursos" id="pesquisarCursos" class="pesquisarCursos"
+                    placeholder="Qual o curso que procura">
+                <img src="./Imagens/search.png" alt="">
+                <!-- <input type="button" id="filter" value="Filtrar"> -->
+            </div>
+            <hr class='lp1'>
+            <div class="cursos-ete-JS" id="cursos">
+
+                <div onclick="cursosDescricao(0)" style="background-image: url(./imagens/adm.jpg);">
+                    <div class="modalidade">
+                        <p>Técnico</p>
+                        <p>Novotec</p>
+                        <p>Hibrido</p>
+                    </div>
+                    <h2>Administração</h2>
+
+                </div>
+
+                <div onclick="cursosDescricao(1)" style="background-image: url(./imagens/meca.png);">
+                    <div class="modalidade">
+                        <p>Técnico</p>
+                        <p>Integrado</p>
+                    </div>
+                    <h2>Automação Industrial</h2>
+
+                </div>
+
+                <div onclick="cursosDescricao(2)" style="background-image: url(./imagens/desenvolvimento.jpg);">
+                    <div class="modalidade">
+                        <p>Integrado</p>
+                        <p>Novotec</p>
+                    </div>
+                    <h2>Desenvolvimento de Sistemas</h2>
+
+                </div>
+
+                <div onclick="cursosDescricao(3)" style="background-image: url(./imagens/eletrotecnica.jpg);">
+                    <div class="modalidade">
+                        <p>Técnico</p>
+                    </div>
+                    <h2>Eletrotécnica</h2>
+                </div>
+
+                <div onclick="cursosDescricao(4)" style="background-image: url(./imagens/eletronica.jpg);">
+                    <div class="modalidade">
+                        <p>Técnico</p>
+                        <p>Integrado</p>
+                        <p>Novotec</p>
+                    </div>
+                    <h2>Eletrônica</h2>
+
+                </div>
+
+                <div onclick="cursosDescricao(5)" style="background-image: url(./imagens/manu-automotivo.jpg);">
+                    <div class="modalidade">
+                        <p>Técnico</p>
+                    </div>
+                    <h2>Manut. Automotiva</h2>
+                </div>
+
+                <div onclick="cursosDescricao(6)" href="#" style="background-image: url(./imagens/mechanics.jpg);">
+                    <div class="modalidade">
+                        <p>Técnico</p>
+                        <p>Integrado</p>
+                    </div>
+                    <h2>Mecânica</h2>
+                </div>
+
+                <div onclick="cursosDescricao(7)" style="background-image: url(./imagens/mecatronica.jpg);">
+                    <div class="modalidade">
+                        <p>Técnico</p>
+                        <p>Integrado</p>
+                    </div>
+                    <h2>Mecatrônica</h2>
+                </div>
+
+                <div onclick="cursosDescricao(8)" style="background-image: url(./imagens/info.jpg);">
+                    <div class="modalidade">
+                        <p>Novotec</p>
+                        <p>Hibrido</p>
+                    </div>
+                    <h2>Informática para Internet</h2>
+                </div>
+
+                <div onclick="cursosDescricao(9)" style="background-image: url(./imagens/servi-juri.jpg);">
+                    <div class="modalidade">
+                        <p>Técnico</p>
+                    </div>
+                    <h2>Serviços Juridicos</h2>
+                </div>
+
+                <div onclick="cursosDescricao(10)" style="background-image: url(./imagens/logistica.jpg);">
+                    <div class="modalidade">
+                        <p>Técnico</p>
+                        <p>Hibrido</p>
+                    </div>
+                    <h2>Logística</h2>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <hr class="weight-100">
+        <!--linha-->
+
+        <div class="faq-vesti">
+
+            <div class="perguntas">
+                <hr class="weight-faq">
+                <!--linha-->
+                <div class="pergunta">
+                    <h1>O que é vestibulinho?</h1>
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </div>
+                <!--pergunta-->
+                <hr class="weight-faq red">
+                <!--linha-->
+                <div class="resposta">
+                    <p>É um processo seletivo que seleciona candidatos para as Escolas Técnicas Estaduais (Etecs).</p>
+                </div>
+                <!--respostas-->
+
+            </div>
+            <!--perguntas-->
+
+            <div class="perguntas">
+                <hr class="weight-faq">
+                <!--linha-->
+                <div class="pergunta">
+                    <h1>Vai ter prova?</h1>
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </div>
+                <!--pergunta-->
+                <hr class="weight-faq red">
+                <!--linha-->
+                <div class="resposta">
+                    <p>Sim, as provas presenciais voltaram.</p>
+                </div>
+                <!--respostas-->
+
+            </div>
+            <!--perguntas-->
+
+            <div class="perguntas">
+                <hr class="weight-faq">
+                <!--linha-->
+                <div class="pergunta">
+                    <h1>Como faço a inscrição?</h1>
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </div>
+                <!--pergunta-->
+                <hr class="weight-faq red">
+                <!--linha-->
+                <div class="resposta">
+                    <p>Pelo site <a href="https://www.vestibulinhoetec.com.br/home/"
+                            target="_blank">vestibulinhoetec.com.br</a>, é preciso preencher a ficha de inscrição pela
+                        internet e pagar a taxa no valor de R$39,00 (trinta e nove reais). Se não pagar até o dia 13 de
+                        junho a inscrição será cancelada. O dinheiro pago depois dessa data não será devolvido.</p>
+                </div>
+                <!--respostas-->
+
+            </div>
+            <!--perguntas-->
+
+            <div class="perguntas">
+                <hr class="weight-faq">
+                <!--linha-->
+                <div class="pergunta">
+                    <h1>Quando começam as inscrições?</h1>
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </div>
+                <!--pergunta-->
+                <hr class="weight-faq red">
+                <!--linha-->
+                <div class="resposta">
+                    <p>Dia 19 de maio no site <a href="https://www.vestibulinhoetec.com.br/home/"
+                            target="_blank">vestibulinhoetec.com.br</a></p>
+                </div>
+                <!--respostas-->
+
+            </div>
+            <!--perguntas-->
+
+            <div class="perguntas">
+                <hr class="weight-faq">
+                <!--linha-->
+                <div class="pergunta">
+                    <h1>Até quando posso me inscrever?</h1>
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </div>
+                <!--pergunta-->
+                <hr class="weight-faq red">
+                <!--linha-->
+                <div class="resposta">
+                    <p>Até as 15 horas do dia 13 de junho pelo site <a href="https://www.vestibulinhoetec.com.br/home/"
+                            target="_blank">vestibulinhoetec.com.br</a></p>
+                </div>
+                <!--respostas-->
+
+            </div>
+            <!--perguntas-->
+
+            <div class="perguntas">
+                <hr class="weight-faq red">
+                <!--linha-->
+                <div class="pergunta">
+                    <h1>Até quando posso me inscrever?</h1>
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </div>
+                <!--pergunta-->
+                <hr class="weight-faq red">
+                <!--linha-->
+                <div class="resposta">
+                    <p>É preciso ter seu próprio CPF para fazer a inscrição. Consulte o site <a
+                            href="http://www.receita.fazenda.gov.br" target="_blank">www.receita.fazenda.gov.br</a> para
+                        informações sobre como obter esse documento. O candidato menor de 16 anos precisa informar
+                        obrigatoriamente o nome e o número do CPF de seu representante legal (pai, mãe, curador ou
+                        tutor).</p>
+                </div>
+                <!--respostas-->
+
+            </div>
+            <!--perguntas-->
+        </div>
+        <!--faq-vesti-->
+
+        <div class="fundo-mod">
+            <div class="escolherModalidade">
+                <h1 onclick="fecharCurso()">
+                    <a href="javascript:void(0)" class="fecharCurso"><i class="fa-solid fa-xmark"></i></a>
+                </h1>
+            </div>
+        </div>
+
+        <div class="cursos-infos">
+
+            <div class="v-f">
+                <h1 onclick="fecharCurso()">
+                    <a href="javascript:void(0)" class="fecharCurso"><i class="fa-solid fa-xmark"></i></a>
+                </h1>
+            </div>
+    
+            <h1 class='titleCursos'></h1>
+            <h2>O que é?</h2>
+            <div class="t-1">
+                <p class="info-p"></p>
+                <div class="img-curso-p"></div>
+            </div>
+    
+            <hr class="weight-faq red"><!--linha-->
+    
+            <div class="sobre-eixo">
+                <div class="sobre">
+                    <h2>Sobre o curso</h2>
+                    <div class="sobre-cursos">
+                        <p>Coordenadores:</p>
+                        <ul class="cord"></ul>
+                    </div>
+                </div>
+                <div class="eixo">
+                    <h2>Eixo Técnico</h2>
+                    <div class="eixo">
+                        <p class="eixo-tec"></p>
+                    </div>
+                </div>
+            </div>
+    
+            <hr class="weight-faq red"><!--linha-->
+    
+            <div class="pre-curso">
+                <div class="pre-requisitos">
+                    <h2>Pré-Requisitos</h2>
+                    <p class="requisitos"></p>
+                </div>
+                <div class="cursos-trabalhar">
+                    <h2>Onde Trabalhar?</h2>
+                    <p class="trabalhar"></p>
+                </div>
+            </div>
+    
+            <hr class="weight-faq red"><!--linha-->
+    
+            <div class="matriz-planos">
+                <h2>Matriz e Plano do Curso</h2>
+                <button class="matriz">Matriz</button>
+                <button class="plano">Plano</button>
+            </div> 
+    
+        </div>
+
+    </main>
+
+    
+
+    <!--Rodape-->
+    <footer>
+
+        <div class="container-footer">
+            <div class="endereco">
+                <p>Rua Bell Aliance, 149 - Jardim São Caetano </p>
+                <p> São Caetano do Sul - SP - CEP:09581-420 </p>
+                <p> Tel: (11) 4238-7955</p>
+            </div>
+
+            <div class="socias-foot">
+                <p>Conheça as nossas Redes Sociais!!!</p>
+                <div class="redes">
+                    <!--Facebook-->
+                    <a href="https://www.facebook.com/people/Etec-Jorge-Street/100084738010880/"
+                        arial-label="Acesse o nosso Facebook" target="_blank" class="facebook">
+                        <i class="fa-brands fa-facebook sociais"></i>
+                    </a>
+                    <!--facebook-->
+                    <!--Instagram-->
+                    <a href="https://www.instagram.com/marketing_etecjorgestreet/?igshid=YmMyMTA2M2Y%3D"
+                        arial-label="Acesse o nosso Instagram" target="_blank" class="instagram">
+                        <i class="fa-brands fa-instagram sociais"></i>
+                    </a>
+                    <!--Youtube-->
+                    <a href="https://www.youtube.com/channel/UCJA_uTakTzcljA8e8OPZr0g"
+                        arial-label="Acesse o nosso canal do Youtube" target="_blank" class="youtube">
+                        <i class="fa-brands fa-youtube sociais"></i>
+                    </a>
+                    <!--TikTok-->
+                    <a href="https://www.tiktok.com/@etecjorgestreet?_t=8V7CkcymE7R&_r=1"
+                        arial-label="Acesse a nossa conta do TikTok" target="_blank" class="tiktok">
+                        <i class="fa-brands fa-tiktok sociais"></i>
+                    </a>
+                    <!--Linkedin-->
+                    <a href="https://www.linkedin.com/in/marketing-etec-jorge-street-tcc-343135249"
+                        arial-label="Acesse o nosso linkedin para conhecer a nossa equipe" target="_blank"
+                        class="linkedin">
+                        <i class="fa-brands fa-linkedin sociais"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="apm">
+                <p>Mantido por recursos da APM</p>
+            </div>
+        </div>
+
+    </footer>
+    <!--footer-->
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/cursos.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

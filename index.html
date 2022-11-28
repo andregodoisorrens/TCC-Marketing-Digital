@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="ETEC Jorge Street" />
+    <meta property="og:description" content="Nós somos um colégio ligado ao Centro Paula Souza, que temos o curso técnico Integrado ao curso técnico e apenas o curso técnico tambem chamado de modlar.">
+    <meta property="og:url" content="https://etecjorgestreet.netlify.app" />
+    <meta property="og:image" content="./Imagens/logo_ETEC_01.png" />
+    <meta property="og:type" content="website" />
+
+    <title>ETEC Jorge Street</title>
+
+    <!-- --- links --- -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- <div w3-include-html="./componentes/links.html"></div> -->
+
+</head>
+
+<body>
+
+    <div class="m-1">
+        <div class="menu-container" id="menu-container">
+            <header>
+                <div class="logo">
+                    <!--Logo da ETEC Jorge Street-->
+                    <img src="./Imagens/logo_ETEC_01.png" alt="Logo da ETEC Jorge Street">
+                </div>
+                <!--logo-->
+                <div class="redes-sociais">
+                    <!--Redes Sociais da ETEC Jorge street-->
+                    <!--Facebook-->
+                    <a href="https://www.facebook.com/people/Etec-Jorge-Street/100084738010880/" arial-label="Acesse o nosso Facebook" target="_blank" class="facebook">
+                        <i class="fa-brands fa-facebook sociais"></i>
+                    </a>
+                    <!--facebook-->
+                    <!--Instagram-->
+                    <a href="https://www.instagram.com/marketing_etecjorgestreet/?igshid=YmMyMTA2M2Y%3D" arial-label="Acesse o nosso Instagram" target="_blank" class="instagram">
+                        <i class="fa-brands fa-instagram sociais"></i>
+                    </a>
+                    <!--Youtube-->
+                    <a href="https://www.youtube.com/channel/UCJA_uTakTzcljA8e8OPZr0g" arial-label="Acesse o nosso canal do Youtube" target="_blank" class="youtube">
+                        <i class="fa-brands fa-youtube sociais"></i>
+                    </a>
+                    <!--TikTok-->
+                    <a href="https://www.tiktok.com/@etecjorgestreet?_t=8V7CkcymE7R&_r=1" arial-label="Acesse a nossa conta do TikTok" target="_blank" class="tiktok">
+                        <i class="fa-brands fa-tiktok sociais"></i>
+                    </a>
+                    <!--Linkedin-->
+                    <a href="https://www.linkedin.com/in/marketing-etec-jorge-street-tcc-343135249" arial-label="Acesse o nosso linkedin para conhecer a nossa equipe" target="_blank" class="linkedin">
+                        <i class="fa-brands fa-linkedin sociais"></i>
+                    </a>
+                </div>
+                <!--redes-sociais-->
+
+                <!--Menu-->
+                <div class="menu">
+                    <!--Icone de Menu-->
+                    <a onclick="abrir_menu()" class="menu-btn">
+                        <i class="fa-solid fa-bars icon-menu"></i>
+                    </a>
+                </div>
+                <!--menu-->
+            </header>
+            <!--header-->
+        </div>
+        <!--menu-container-->
+
+        <!--menu aberto-->
+        <div id="id_menu" class="menu-aberto">
+            <h1 onclick="fechar()">
+                <a href="javascript:void(0)" class="fechar"><i class="fa-solid fa-xmark"></i></a>
+            </h1>
+            <!-- <button id="toggle" class="button">toggle</button> -->
+            <div class="switch">
+                <input id='toggle' type="checkbox">
+            </div>
+            <ul>
+                <li><a href="index.html" onclick="color()">A ETEC</a></li>
+                <li><a href="vestibulinho.html" onclick="color()">vestibulinho</a></li>
+                <li><a href="alunos.html" onclick="color()">alunos</a></li>
+                <li><a href="professor.html" onclick="color()">Professores</a></li>
+                <!-- <li><a href="tcc.html" onclick="color()">TCC</a></li> -->
+                <li><a href="noticias.html" onclick="color()">Notícias</a></li>
+                <li><a href="http://memorias.jorgestreet.com.br" target="_blank" onclick="color()">memórias</a></li>
+                <li><a href="contatos.html" onclick="color()">contato</a></li>
+            </ul>
+
+        </div>
+        <!--menu-aberto-->
+
+        <main>
+            <!--Começo da pagina-->
+            <div class="banner">
+                <section class="module paralax paralax-1" data-anime="bottom"></section>
+            </div>
+            <!--banner-->
+            <!--Venha conhecer a ETEC-->
+            <div class="conheca-etec">
+                <h1>Venha Conhecer a ETEC Jorge Street</h1>
+
+                <p>Seja Bem-vindo a ETEC Jorge Street, a escola que preza pelo conhecimento e criatividade do aluno, dando espaço para demonstrar sua criatividade.</p>
+            </div>
+            <!--conheca-etec-->
+            <!--acesso Rápido-->
+            <div class="acesso-rapido">
+                <!--vestibulinho-->
+                <div class="acessos">
+                    <img src="Imagens/vestibulinho-p.png" alt="Saiba sobre o nosso vestibulinho">
+                    <div class="texto">
+                        <h1 class="title">VESTIBULINHO</h1>
+                        <p class="descricao">Para concorrer a uma das vagas para o Ensino Médio regular ou em diferentes modalidades e para os cursos técnicos integrados ao Ensino Médio, o candidato dever ter concluído o Ensino Fundamental. Quem pretende fazer apenas o Ensino
+                            Técnico, precisa ter concluído ou estar cursando a partir do segundo ano do Ensino Médio.</p>
+                        <a href="vestibulinho.html" class="btn-vest">Saiba Mais <i class="fa-solid fa-plus more"></i></a>
+
+                    </div>
+                    <!--texto-->
+                </div>
+                <!--acessos-->
+                <!--Curso técnico e Integrado-->
+                <div class="acessos">
+                    <img src="Imagens/cursos.png" alt="Saiba mais sobre nossos cursos">
+                    <div class="texto">
+                        <h1 class="title">curso técnico e Integrado</h1>
+                        <p class="descricao">O Ensino Técnico destina-se aos candidatos que concluíram o ensino médio ou equivalente, ou ainda aos que estão cursando a partir da 2ª série ou 3ª série do ensino médio.
+                            <br> Ensino Integrado destina-se aos candidatos que tenham concluído o ensino fundamental e compõe-se das partes do ensino médio e da formação profissional.
+                        </p>
+                        <a href="./vestibulinho.html#cursos" class="btn-vest">Saiba Mais <i class="fa-solid fa-plus"></i></a>
+
+                    </div>
+                    <!--texto-->
+                </div>
+                <!--acessos-->
+                <!--Parcerias-->
+                <div class="acessos">
+                    <img src="Imagens/parcerias-a.png" alt="Saiba mais sobre as nossas parcerias">
+                    <div class="texto">
+                        <h1 class="title">parcerias</h1>
+                        <p class="descricao">Veja as parceria da ETEC Jorge Street !!! e tambem algumas das oficinas, cursos e palestras oferecidas pela ETEC Jorge Street.
+                        </p>
+                        <a href="./contatos.html#parcerias" class="btn-vest">Saiba Mais <i class="fa-solid fa-plus"></i></a>
+
+                    </div>
+                    <!--texto-->
+                </div>
+                <!--acessos-->
+                <!--Centro paula souza-->
+                <div class="acessos">
+                    <img src="Imagens/cps.png" alt="Saiba mais sobre o Centro Paula Souza">
+                    <div class="texto">
+                        <h1 class="title">centro paula souza</h1>
+                        <p class="descricao">O Centro Paula Souza é uma autarquia do Governo do Estado de São Paulo, vinculada à Secretaria de Desenvolvimento Econômico, Ciência, Tecnologia e Inovação (SDECTI).
+                        </p>
+                        <a href="https://www.cps.sp.gov.br" target="_blank" class="btn-vest">Saiba Mais <i class="fa-solid fa-plus"></i></a>
+
+                    </div>
+                    <!--texto-->
+                </div>
+                <!--acessos-->
+            </div>
+            <!--Hashtag-->
+            <div class="hashtag">
+                <h1>#EtecJS</h1>
+            </div>
+            <!--Hashtag-->
+            <!--Noticias-->
+            <div class="noticias">
+                <h1>Veja o que esta <br> acontecendo na ETEC</h1>
+                <hr>
+                <div class="container-noticias">
+                    <!--mais Noticias-->
+                    <div class="column-left">
+                        <a href="#" class="n-1">
+                            <img src="./Imagens/noticia-1-protótipo.png" alt="CONTATE-NOS POR EMAIL">
+                            <h2>CONTATE-NOS POR EMAIL</h2>
+                        </a>
+                        <!--n-1-->
+                        <hr>
+                        <a href="#" class="n-1">
+                            <img src="./Imagens/noticia-2-protótipo.png" alt="CONTATE-NOS POR EMAIL">
+                            <h2>FELIZ CARNAVAL!!!</h2>
+                        </a>
+                        <!--n-1-->
+                        <hr>
+                        <a href="#" class="n-1">
+                            <img src="./Imagens/noticia-2-protótipo.png" alt="CONTATE-NOS POR EMAIL">
+                            <h2>FELIZ CARNAVAL!!!</h2>
+                        </a>
+                        <!--n-1-->
+                    </div>
+                    <!--column-left-->
+                    <!--Noticia principal-->
+                    <a href="#" class="principal">
+                        <img src="./Imagens/noticia-principal-protótipo.png" alt="CONTATE-NOS POR EMAIL">
+                        <div class="principal-description">
+                            <h2>JORGE O CACHORRO MASCOTE</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus dolores dolorem enim perferendis aliquid, deleniti quae praesentium ipsa error soluta quas recusandae voluptatibus, laboriosam aspernatur blanditiis corrupti
+                                vitae saepe a!</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est ab accusamus doloremque nulla non molestias vitae blanditiis, culpa quo dolorum. Nostrum impedit facere quia saepe asperiores numquam unde ipsa dicta.</p>
+                        </div>
+                    </a>
+                    <!--principal-->
+                </div>
+                <!--container-noticias-->
+            </div>
+            <!--Noticias-->
+            <div class="banner">
+
+                <section class="module paralax paralax-2" data-anime="bottom"></section>
+
+            </div>
+        </main>
+        <!--main-->
+        <!--Rodape-->
+        <footer>
+
+            <div class="container-footer">
+                <div class="endereco">
+                    <p>Rua Bell Aliance, 149 - Jardim São Caetano </p>
+                    <p> São Caetano do Sul - SP - CEP:09581-420 </p>
+                    <p> Tel: (11) 4238-7955</p>
+                </div>
+
+                <div class="socias-foot">
+                    <p>Conheça as nossas Redes Sociais!!!</p>
+                    <div class="redes">
+                        <!--Facebook-->
+                        <a href="https://www.facebook.com/people/Etec-Jorge-Street/100084738010880/" arial-label="Acesse o nosso Facebook" target="_blank" class="facebook">
+                            <i class="fa-brands fa-facebook sociais"></i>
+                        </a>
+                        <!--facebook-->
+                        <!--Instagram-->
+                        <a href="https://www.instagram.com/marketing_etecjorgestreet/?igshid=YmMyMTA2M2Y%3D" arial-label="Acesse o nosso Instagram" target="_blank" class="instagram">
+                            <i class="fa-brands fa-instagram sociais"></i>
+                        </a>
+                        <!--Youtube-->
+                        <a href="https://www.youtube.com/channel/UCJA_uTakTzcljA8e8OPZr0g" arial-label="Acesse o nosso canal do Youtube" target="_blank" class="youtube">
+                            <i class="fa-brands fa-youtube sociais"></i>
+                        </a>
+                        <!--TikTok-->
+                        <a href="https://www.tiktok.com/@etecjorgestreet?_t=8V7CkcymE7R&_r=1" arial-label="Acesse a nossa conta do TikTok" target="_blank" class="tiktok">
+                            <i class="fa-brands fa-tiktok sociais"></i>
+                        </a>
+                        <!--Linkedin-->
+                        <a href="https://www.linkedin.com/in/marketing-etec-jorge-street-tcc-343135249" arial-label="Acesse o nosso linkedin para conhecer a nossa equipe" target="_blank" class="linkedin">
+                            <i class="fa-brands fa-linkedin sociais"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="apm">
+                    <p>Mantido por recursos da APM</p>
+                </div>
+            </div>
+
+        </footer>
+        <!--footer-->
+    </div>
+
+    <script src="js/theme.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

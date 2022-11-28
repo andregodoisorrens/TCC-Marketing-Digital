@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alunos | ETEC Jorge Street</title>
+
+  <!-- --- links --- -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="./Imagens/logo_ETEC_favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alunos | ETEC Jorge Street</title>
+</head>
+
+<body>
+  <div class="menu-container" id="menu-container">
+    <header>
+      <div class="logo">
+        <!--Logo da ETEC Jorge Street-->
+        <img onclick="lightMode()" src="./Imagens/logo_ETEC_01.png" alt="Logo da ETEC Jorge Street" />
+      </div>
+      <!--logo-->
+      <div class="redes-sociais">
+        <!--Redes Sociais da ETEC Jorge street-->
+        <!--Facebook-->
+        <a href="https://www.facebook.com/people/Etec-Jorge-Street/100084738010880/"
+          arial-label="Acesse o nosso Facebook" target="_blank" class="facebook">
+          <i class="fa-brands fa-facebook sociais"></i>
+        </a>
+        <!--facebook-->
+        <!--Instagram-->
+        <a href="https://www.instagram.com/marketing_etecjorgestreet/?igshid=YmMyMTA2M2Y%3D"
+          arial-label="Acesse o nosso Instagram" target="_blank" class="instagram">
+          <i class="fa-brands fa-instagram sociais"></i>
+        </a>
+        <!--Youtube-->
+        <a href="https://www.youtube.com/channel/UCJA_uTakTzcljA8e8OPZr0g" arial-label="Acesse o nosso canal do Youtube"
+          target="_blank" class="youtube">
+          <i class="fa-brands fa-youtube sociais"></i>
+        </a>
+        <!--TikTok-->
+        <a href="https://www.tiktok.com/@etecjorgestreet?_t=8V7CkcymE7R&_r=1"
+          arial-label="Acesse a nossa conta do TikTok" target="_blank" class="tiktok">
+          <i class="fa-brands fa-tiktok sociais"></i>
+        </a>
+        <!--Linkedin-->
+        <a href="https://www.linkedin.com/in/marketing-etec-jorge-street-tcc-343135249"
+          arial-label="Acesse o nosso linkedin para conhecer a nossa equipe" target="_blank" class="linkedin">
+          <i class="fa-brands fa-linkedin sociais"></i>
+        </a>
+      </div>
+      <!--redes-sociais-->
+
+      <!--Menu-->
+      <div class="menu">
+        <!--Icone de Menu-->
+        <a onclick="abrir_menu()" class="menu-btn">
+          <i class="fa-solid fa-bars icon-menu"></i>
+        </a>
+      </div>
+      <!--menu-->
+    </header>
+    <!--header-->
+  </div>
+  <!--menu-container-->
+
+  <!--menu aberto-->
+  <div id="id_menu" class="menu-aberto">
+    <h1 onclick="fechar()">
+      <a href="javascript:void(0)" class="fechar"><i class="fa-solid fa-xmark"></i></a>
+    </h1>
+    <div class="switch">
+      <input id='toggle' type="checkbox">
+  </div>
+    <ul>
+      <li><a href="index.html" onclick="color()">A ETEC</a></li>
+            <li><a href="vestibulinho.html" onclick="color()">vestibulinho</a></li>
+            <li><a href="alunos.html" onclick="color()">alunos</a></li>
+            <li><a href="professor.html" onclick="color()">Professores</a></li>
+            <!-- <li><a href="tcc.html" onclick="color()">TCC</a></li> -->
+            <li><a href="noticias.html" onclick="color()">Notícias</a></li>
+            <li><a href="http://memorias.jorgestreet.com.br" target="_blank" onclick="color()">memórias</a></li>
+            <li><a href="contatos.html" onclick="color()">contato</a></li>
+    </ul>
+  </div>
+  <!--menu-aberto-->
+
+  <div class="banner">
+    <section class="module paralax paralax-4" data-anime="bottom"></section>
+  </div>
+  <!--banner-->
+
+  <div class="bem-vindo">
+    <h1>SEJA BEM VINDO!</h1>
+  </div>
+  <!--bem-vindo-->
+
+  <div class="instrucoes">
+    <div class="painelInfos">
+      <div class="ae-gp">
+        <div class="a-e">
+          <h2>Acesso ao E-mail</h2>
+          <p>
+            Se você precisa consultar seu email institucional ou resgatar a
+            senha acesse
+            <a href="http://www.etec.sp.gov.br" target="_blank">www.etec.sp.gov.br</a>
+          </p>
+          <p>
+            Para outros problemas de acesso abra um chamado através do link :
+            <a href="https://servicedesk.cps.sp.gov.br/formulario" target="_blank">acesse o link</a>
+          </p>
+        </div>
+        <!--a-e-->
+        <div class="g-p">
+          <h2>Grupo de Pais</h2>
+          <p>
+            Gostaria de participar do Grupo de WhatsApp de Pais e Responsáveis
+            por turma?
+          </p>
+          <span>Clique no link abaixo:</span>
+          <a href="https://forms.office.com/r/z92MAMQfvT" target="_blank">Acesse o formulário</a>
+        </div>
+        <!--g-p-->
+      </div>
+      <!--ae-gp-->
+      <div class="co-na">
+        <div class="c-o">
+          <h2>Calendário</h2>
+          <p>Os calendários da SEDE e suas extensões:</p>
+          <div class="btn-o">
+            <a href="https://www.jorgestreet.com.br/wp-content/uploads/2022/01/CALENDARIO-ESCOLAR-2022-SEDE.pdf"
+              target="_blank"><button class="click-instrucoes">Sede 2022</button></a>
+            <a href="https://www.jorgestreet.com.br/wp-content/uploads/2022/02/torloni2022.pdf" target="_blank"><button
+                class="click-instrucoes">
+                Extensão Torloni 2022
+              </button></a>
+            <a href="https://www.jorgestreet.com.br/wp-content/uploads/2022/02/bristol2022.pdf" target="_blank"><button
+                class="click-instrucoes">
+                Extensão Parque Bristol 2022
+              </button></a>
+            <a href="https://www.jorgestreet.com.br/wp-content/uploads/2022/02/ptech2022.pdf" target="_blank"><button
+                class="click-instrucoes">Ptech 2022</button></a>
+          </div>
+        </div>
+        <!--c-o-->
+        <div class="n-a">
+          <h2>NSA</h2>
+          <p>
+            NSA é o sistema acadêmico das ETECs. Através do NSA é possível, o
+            aluno e seu responsável (cada um tem direito a um login e senha)
+            acessarem as menções, frequências, plano de trabalho docente
+            (PTD), ficha individual do aluno.
+          </p>
+          <span><a href="https://nsa.cps.sp.gov.br" target="_blank">Clique aqui</a>
+            para ser redirecionado</span>
+        </div>
+        <!--n-a-->
+      </div>
+      <div class="container">
+        <!-- Project content container -->
+        <div class="horario">
+          <h2>Horário</h2>
+          <p>Os horários de Aula da SEDE e as extensões:</p>
+          <div class="btn-o">
+            <a href="https://www.jorgestreet.com.br/wp-content/uploads/2022/03/Horario_Turmas_04Abr2022_Integral.pdf"
+              target="_blank"><button class="click-instrucoes">
+                Jorge Street Horário Integral
+              </button></a>
+            <a href="https://www.jorgestreet.com.br/wp-content/uploads/2022/07/horario_manha_01_08.pdf"
+              target="_blank"><button class="click-instrucoes">
+                Jorge Street Horário Manhã
+              </button></a>
+            <a href="https://www.jorgestreet.com.br/wp-content/uploads/2022/03/Horario_Turmas_04Abr2022_tarde.pdf"
+              target="_blank"><button class="click-instrucoes">
+                Jorge Street Horário Tarde
+              </button></a>
+            <a href="https://www.jorgestreet.com.br/wp-content/uploads/2022/07/juridico_01-08.pdf"
+              target="_blank"><button class="click-instrucoes">Torloni Jurídico</button></a>
+            <a href="https://www.jorgestreet.com.br/wp-content/uploads/2022/07/bristol_01_08.pdf"
+              target="_blank"><button class="click-instrucoes">PARQUE BRISTOL</button></a>
+            <a href="https://www.jorgestreet.com.br/wp-content/uploads/2022/07/horario_noite_01_ago.pdf"
+              target="_blank"><button class="click-instrucoes">
+                SEDE – TÉCNICOS NOTURNOS
+              </button></a>
+            <a href="https://www.jorgestreet.com.br/wp-content/uploads/2022/07/bonifacio_01_08.pdf"
+              target="_blank"><button class="click-instrucoes">
+                Etec Jorge Street – Bonifácio
+              </button></a>
+          </div>
+          <!--btn-o-->
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide slide_1" onclick="galeria(0)"><h1>Carbocloro</h1></div>
+            <div class="swiper-slide slide_2" onclick="galeria(1)"><h1>Catavento</h1></div>
+            <div class="swiper-slide slide_3" onclick="galeria(2)"><h1>Instituto Fazendo Acontecer</h1></div>
+            <div class="swiper-slide slide_4" onclick="galeria(3)"><h1>Masipack</h1></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="UTP">
+        <div class="table-logo">
+          <img src="Imagens/logo_ETEC_01.png" alt="Logog da ETEC Jorge Street" />
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <td>
+                <h1>transporte escolar</h1>
+              </td>
+              <td>
+                <h1>Uniforme Escolar</h1>
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <h3>Natal - transporte Noite</h3>
+                <p>Ribeirão Pires, Mauá, Santoa André, São Caetano do Sul</p>
+                <span>TEL. 99551-6772</span>
+              </td>
+              <td rowspan="2">
+                <h3>Enjoy Uniformes</h3>
+                <p>
+                  RUA GAL. HUMBERTO DE A. CASTELO BRANCO 150, SÃO CAETANO DO
+                  SUL-SP
+                </p>
+                <span>WHATSAPP 11 96206-7213-TEL.: 11 4220-1046</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h3>SANDRA-TRANSPORTE MANHÃ E TARDE</h3>
+                <p>Ribeirão Pires, Mauá, Santo André, São Caetano do Sul</p>
+                <span>TEL. 98907-2255</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h3>JHM TRANSPORTE</h3>
+                <p>Santo André e Mauá</p>
+                <span>TEL. 95991-5764/95064-7755</span>
+              </td>
+              <td rowspan="3">
+                <h3>LIBERTY UNIFORMES</h3>
+                <p>RUA MAJOR CARLOS DEL PRE TE, 1.141, SÃO CAETANO DO SUL-SP</p>
+                <span>WHATSAPP 11 94729-7876-TEL.: 11 4229-5794</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <h3>JHM TRANSPORTE</h3>
+                <p>Santo André e Mauá</p>
+                <span>TEL. 95991-5764/95064-7755</span>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p>
+                  A ETEC JORGE STREET NÃO TEM VINCULO COM AS EMPRESAS DE
+                  TRANSPORTE ESCOLAR, APENAS DIVULGAMOS OS OPERADORES DAS LINHAS
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--UTP-->
+    </div>
+  </div>
+
+  <div class="passeEscolar">
+    <div class="clickE">
+      <button class="btnPasse" onclick="passEscolar(0)">TOP</button>
+      <button class="btnPasse" onclick="passEscolar(1)">Bilhete Único</button>
+      <button class="btnPasse" onclick="passEscolar(2)">Legal</button>
+      <button class="btnPasse" onclick="passEscolar(3)">AESA</button>
+      <button class="btnPasse" onclick="passEscolar(4)">SOU</button>
+      <button class="btnPasse" onclick="passEscolar(5)">SIM</button>
+    </div>
+    <!--clickE-->
+    <div class="telaE">
+      <div class="T-P"></div>
+      <div class="Text-p"></div>
+    </div>
+    <!--telaE-->
+  </div>
+  <!--clickE-->
+
+  <!--Rodape-->
+  <footer>
+    <div class="container-footer">
+      <div class="endereco">
+        <p>Rua Bell Aliance, 149 - Jardim São Caetano</p>
+        <p>São Caetano do Sul - SP - CEP:09581-420</p>
+        <p>Tel: (11) 4238-7955</p>
+      </div>
+
+      <div class="socias-foot">
+        <p>Conheça as nossas Redes Sociais!!!</p>
+        <div class="redes">
+          <!--Facebook-->
+          <a href="https://www.facebook.com/people/Etec-Jorge-Street/100084738010880/"
+            arial-label="Acesse o nosso Facebook" target="_blank" class="facebook">
+            <i class="fa-brands fa-facebook sociais"></i>
+          </a>
+          <!--facebook-->
+          <!--Instagram-->
+          <a href="https://www.instagram.com/marketing_etecjorgestreet/?igshid=YmMyMTA2M2Y%3D"
+            arial-label="Acesse o nosso Instagram" target="_blank" class="instagram">
+            <i class="fa-brands fa-instagram sociais"></i>
+          </a>
+          <!--Youtube-->
+          <a href="https://www.youtube.com/channel/UCJA_uTakTzcljA8e8OPZr0g"
+            arial-label="Acesse o nosso canal do Youtube" target="_blank" class="youtube">
+            <i class="fa-brands fa-youtube sociais"></i>
+          </a>
+          <!--TikTok-->
+          <a href="https://www.tiktok.com/@etecjorgestreet?_t=8V7CkcymE7R&_r=1"
+            arial-label="Acesse a nossa conta do TikTok" target="_blank" class="tiktok">
+            <i class="fa-brands fa-tiktok sociais"></i>
+          </a>
+          <!--Linkedin-->
+          <a href="https://www.linkedin.com/in/marketing-etec-jorge-street-tcc-343135249"
+            arial-label="Acesse o nosso linkedin para conhecer a nossa equipe" target="_blank" class="linkedin">
+            <i class="fa-brands fa-linkedin sociais"></i>
+          </a>
+        </div>
+      </div>
+      <div class="apm">
+        <p>Mantido por recursos da APM</p>
+      </div>
+    </div>
+  </footer>
+  <!--footer-->
+
+  <div class="galeria">
+    <h1 onclick="fecharGaleria()">
+      <a href="javascript:void(0)" class="fechar-galeria"><i class="fa-solid fa-xmark"></i></a>
+    </h1>
+    <div class="titleGaleria">
+      <h1></h1>
+    </div>
+    <!--titleGaleria-->
+    <div class="galeria-principal">
+      <div class="gallery-container"></div>
+      <!--galeria-container-->
+    </div>
+    <!--galeria-principal-->
+  </div>
+  <!--galeria-->
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/passeEscolar.js"></script>
+  <script src="js/galeria.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

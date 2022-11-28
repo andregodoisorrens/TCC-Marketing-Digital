@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../Imagens/logo_ETEC_favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>ETASP | Login</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="form signup">
+        <header>Login</header>
+        <form
+          action="./login.php"
+          method="POST"
+          enctype="multipart/form-data"
+          autocomplete="off"
+        >
+          <div class="error-text"></div>
+          <div class="field input">
+            <label>Email:</label>
+            <input type="text" name="email" id="Email" required />
+          </div>
+          <div class="field input">
+            <label>Senha:</label>
+            <input type="password" name="password" id="password" required />
+            <i class="fas fa-eye"></i>
+          </div>
+          <div class="field button">
+            <input type="submit" name="submit" value="Logue-se" />
+          </div>
+        </form>
+        <!-- <div class="link">Ainda não Cadastrou? <a href="cadastro.html">Cadastre-se Agora</a></div>
+        <div class="link"> <a href="#">Esqueceu a senha?</a></div> -->
+      </section>
+    </div>
+    <script src="javascript/pass-show-hide.js"></script>
+    <script src="javascript/signup.js"></script>
+  </body>
+</html>
